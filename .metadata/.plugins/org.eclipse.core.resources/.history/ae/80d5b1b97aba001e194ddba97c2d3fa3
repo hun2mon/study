@@ -1,0 +1,20 @@
+
+public class StmtDoWhile {
+
+	public static void main(String[] args) {
+
+		int cnt = 1;
+		
+		while (cnt<10) {
+			cnt++;
+		}
+		System.out.println("while cnt:" + cnt);
+		
+		cnt = 1;
+		do {
+			c++; // 일단 실행하자
+		} while (cnt<10); // 조건을 본다( 반복 여부 결정)
+
+	}
+		System.out.println("do while cnt:"+cnt)
+}

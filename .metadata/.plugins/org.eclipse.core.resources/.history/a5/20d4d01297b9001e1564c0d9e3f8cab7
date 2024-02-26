@@ -1,0 +1,15 @@
+
+public class MinMax {
+
+	public static void main(String[] args) {
+		//byte
+		System.out.println(Byte.MIN_VALUE+ " ~ " +Byte.MAX_VALUE);
+		//short
+		//int
+		//long
+		//float
+		//double
+		
+	}
+
+}

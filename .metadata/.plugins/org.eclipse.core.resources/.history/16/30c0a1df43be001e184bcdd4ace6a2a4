@@ -1,0 +1,29 @@
+package chap06.ex01;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// Mamal 의 기능을 사용해 보자.
+		
+		Mamal mamal = new Mamal();
+		mamal.birth();
+		mamal.eat();
+		
+		// Person
+		
+		Person per = new Person();
+		per.useTool();
+		per.social();
+		per.talk();
+		
+		System.out.println();
+		
+		per.birth();
+		per.eat();
+		
+		
+
+	}
+
+}

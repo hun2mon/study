@@ -1,0 +1,25 @@
+package chap06.ex08;
+
+public class ArrMage {
+
+	public static void main(String[] args) {
+
+		// Ice, Light, Fire 주문을 연속으로 날릴 수 있도록 배열과, for 문을 활용해서 구현 해 보자.
+		Spell spell = null;
+		
+		Spell[] spellArr = new Spell[3];
+		
+		
+		spellArr[0] = new Ice();
+		spellArr[1] = new Light();
+		spellArr[2] = new Fire();
+		
+		for (int i = 0; i < spellArr.length; i++) {
+			System.out.println(spell.casting());
+		}
+		
+		
+
+	}
+
+}

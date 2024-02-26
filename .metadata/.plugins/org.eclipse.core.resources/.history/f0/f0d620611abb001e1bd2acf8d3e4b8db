@@ -1,0 +1,16 @@
+
+public class OutArr {
+
+	public static void main(String[] args) {
+
+		int[] scores = {11,22,33,44,55};
+		
+		// 0번방 호출
+		
+		System.out.println("0번방 : " + scores[0]);
+		System.out.println("3번방 : " + scores[3]);
+		System.out.println("4번방 : " + scores[4]);
+		
+	}
+
+}

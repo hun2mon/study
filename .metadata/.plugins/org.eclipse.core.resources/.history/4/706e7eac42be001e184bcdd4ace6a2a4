@@ -1,0 +1,17 @@
+package chap06.ex01;
+
+public class Person {
+
+	public void useTool() {
+		System.out.println();
+	}
+	
+	public void social() {
+		
+	}
+	
+	public void talk() {
+		
+	}
+
+}

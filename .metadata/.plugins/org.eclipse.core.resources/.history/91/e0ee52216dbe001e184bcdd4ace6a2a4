@@ -1,0 +1,9 @@
+package chap06.ex08;
+
+public class Fire extends Spell {
+
+	public String cast() {
+		return "화염 마법을 시전한다";
+	}
+	
+}

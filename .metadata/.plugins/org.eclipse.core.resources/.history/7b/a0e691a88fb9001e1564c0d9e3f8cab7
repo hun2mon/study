@@ -1,0 +1,11 @@
+
+public class Define {
+
+	public static void main(String[] args) { // 얘가 없으면 프로그램이 스스로 실행되지 않는다.
+		/* 여러줄 주석
+		 * 여러 줄을 사용할 때 쓴다.
+		 */
+		boolean varBool = true;
+	}
+
+}

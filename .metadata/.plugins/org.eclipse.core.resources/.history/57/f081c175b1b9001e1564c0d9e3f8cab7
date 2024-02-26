@@ -1,0 +1,23 @@
+
+public class Compare {
+
+	public static void main(String[] args) {
+		
+		// = 은 대입연산자
+		int v1 = 1;
+		double v2 = 1.0;
+		int v3 = 4;
+		// 문자열은 여러 방법으로 선언 할 수 있다. 아래의 v4와 v5는 같다.
+		String v4 = "JAVA";
+		String v5 = new String("JAVA");
+		
+		// 비교 연산
+		System.out.println(v1==v2);
+		System.out.println(v1!=v2);
+		System.out.println(v1<v3);
+		
+		
+
+	}
+
+}

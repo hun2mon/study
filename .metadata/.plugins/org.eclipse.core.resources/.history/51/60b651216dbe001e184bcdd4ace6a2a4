@@ -1,0 +1,9 @@
+package chap06.ex08;
+
+public class Light extends Spell {
+
+	public String cast() {
+		return "전기 마법을 시전한다";
+	}
+	
+}

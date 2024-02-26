@@ -1,0 +1,9 @@
+package chap06.ex08;
+
+public class Ice extends Spell {
+
+	public String cast() {
+		return "얼음 마법을 시전한다";
+	}
+	
+}

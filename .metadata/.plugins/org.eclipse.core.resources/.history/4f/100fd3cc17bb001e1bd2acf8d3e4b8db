@@ -1,0 +1,13 @@
+
+public class InputArr {
+
+	public static void main(String[] args) {
+		// 10개 짜리 방 생성
+		int[] scores = new int[10];
+		
+		System.out.println("크기 : "+scores.length);
+		
+		
+	}
+
+}

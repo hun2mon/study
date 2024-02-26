@@ -1,0 +1,10 @@
+package ch02.ex02;
+
+public class Solution {
+	
+	public String solution(int num) {
+        num%2=0 ? String answer = "Odd" : answer = "Even";
+		
+        return answer;
+    }
+}

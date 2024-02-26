@@ -1,0 +1,16 @@
+
+public class One {
+
+	public static void main(String[] args) {
+
+		int x = 10;
+		int y = 10;
+		
+		x++; // 증가 나중에
+		++y; // 증가 먼저
+		System.out.println("x="+x);
+		System.out.println("y="+y);
+	}
+	
+
+}

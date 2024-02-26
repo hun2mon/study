@@ -1,0 +1,16 @@
+
+public class ThreeD {
+
+	public static void main(String[] args) {
+		
+		// royal 아파트는 4개층 4개호 방 3개
+		String[][][] royal = new String[4][4][3];
+		System.out.println(royal.length+" 층");
+		System.out.println(royal[0].length+" 호");
+		System.out.println(royal[0][0].length+" 개");
+
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Casting {
+
+	public static void main(String[] args) {
+		
+		char charVlaue;
+		int intVlaue;
+		long longVlaue;
+		float floatVlaue;
+		double doubleVlaue;
+		
+		intVlaue =74;
+		charVlaue = (char) intVlaue;
+		System.out.println(charVlaue);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package chap06.ex03;
+
+public class MyCar extends ParentCar {
+
+	@Override
+	public int run() {
+
+		return 200;
+	}
+
+	// 부모로 부터 받은 메서드를완전히 뜯어 고친다.
+	
+	
+}

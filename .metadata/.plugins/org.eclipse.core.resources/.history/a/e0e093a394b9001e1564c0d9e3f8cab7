@@ -1,0 +1,30 @@
+
+public class Promotion {
+
+	public static void main(String[] args) {
+		// 작은거에서 큰 걸로 갈 땐 묵시적 형변환(Promotion)
+		// 작은잔에서 큰잔으로 옮길때 당연히 안 흘릴테니 확인이 필요없다.
+		
+		byte byteVlaue;
+		char charValue = 'a';
+		int intValue = 0;
+		long longVlaue;
+		float floatValue;
+		double doubleValue;
+		
+		// byte < int
+		
+		byteVlaue = 10;
+		intValue = byteVlaue;
+		
+		// char < int
+		
+		intValue = charValue;
+		System.out.println(intValue);
+		
+		// int < long
+		// float < double
+
+	}
+
+}

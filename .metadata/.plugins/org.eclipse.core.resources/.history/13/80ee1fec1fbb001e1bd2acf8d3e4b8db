@@ -1,0 +1,14 @@
+
+public class ThreeD {
+
+	public static void main(String[] args) {
+		
+		// royal 아파트는 4개층 4개호 방 3개
+		[][][] royal = new int[4][4][3];
+		royal[0][0][0] = "0층 0호 0방";
+
+		
+		
+	}
+
+}
